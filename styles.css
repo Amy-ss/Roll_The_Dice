@@ -1,0 +1,73 @@
+body > #bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(2,211,248);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    position: absolute;
+    z-index: -1;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+h1 {
+    margin: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: none;
+    font-size: 4.5rem;
+    color:black;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color:black;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.butn {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  will-change: transform;
+}
+
+.butn:hover {
+    background: #F999B7;
+   /* text-decoration: none; */
+}
